@@ -4,6 +4,7 @@ import { StyleSheet, TextInput, Text, View, Button } from "react-native";
 export default Form = ({ handleAdd }) =>{
 
     const [text, setText] = useState("");
+
     return(
         <View>
             <TextInput
@@ -22,6 +23,6 @@ const styles = StyleSheet.create({
         borderColor:"black",
         padding:10,
         marginBottom:10,
-        paddingTop:10
+        paddingTop:50,
     }
 })
